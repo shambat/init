@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Cybersecurity Awareness Initiative | Muhammad Ehtisham</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    /* Custom font imports */
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+
+    /* Enhanced fade-in animation */
+    .fade-in {
+      opacity: 0;
+      transform: translateY(30px);
+      transition: opacity 1s ease-out, transform 1s ease-out;
+    }
+    .fade-in.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    /* Smooth hover effect for buttons and links */
+    .hover-effect {
+      transition: all 0.3s ease-in-out;
+    }
+    .hover-effect:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 15px rgba(0, 216, 255, 0.3);
+    }
+
+    /* Gradient background for header */
+    .header-gradient {
+      background: linear-gradient(135deg, #1f2633 0%, #2a3244 100%);
+    }
+
+    /* Custom scrollbar */
+    ::-webkit-scrollbar {
+      width: 8px;
+    }
+    ::-webkit-scrollbar-track {
+      background: #1a1e25;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: #00d8ff;
+      border-radius: 4px;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+      background: #17f1a6;
+    }
+  </style>
+</head>
+<body class="bg-[#0a0c12] text-[#e6e6e6] font-['Inter'] leading-relaxed antialiased">
+
+  <!-- Navigation Bar -->
+  <nav class="sticky top-0 z-50 bg-[#1f2633]/95 backdrop-blur-md shadow-md">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 py-4 flex justify-between items-center">
+      <a href="#" class="text-2xl font-bold text-[#00d8ff]">SHAM Cybersecurity</a>
+      <div class="space-x-6">
+        <a href="#mission" class="text-gray-300 hover:text-[#00d8ff] hover-effect">Mission</a>
+        <a href="#topics" class="text-gray-300 hover:text-[#00d8ff] hover-effect">Topics</a>
+        <a href="#about" class="text-gray-300 hover:text-[#00d8ff] hover-effect">About</a>
+        <a href="#invite" class="text-gray-300 hover:text-[#00d8ff] hover-effect">Invite</a>
+      </div>
+    </div>
+  </nav>
+
+  <header id="home" class="header-gradient p-8 sm:p-12 text-center">
+    <h1 class="text-4xl sm:text-5xl font-bold text-[#00d8ff] mb-4 max-w-7xl mx-auto px-4">Cybersecurity Awareness for a Safer Pakistan</h1>
+    <p class="text-gray-300 text-lg max-w-3xl mx-auto px-4">
+      An independent awareness project led by Muhammad Ehtisham — Cybersecurity Student & <span class="font-semibold">(ISC)<sup>2</sup></span> Certified Professional
+    </p>
+  </header>
+
+  <main class="space-y-16 max-w-[100vw] px-4 sm:px-0">
+
+    <!-- Mission Section -->
+    <section id="mission" class="fade-in bg-[#1a1e25]/80 backdrop-blur-sm rounded-2xl p-8 sm:p-12 shadow-xl max-w-[100vw] mx-auto">
+      <div class="max-w-[90vw] mx-auto sm:max-w-7xl">
+        <h2 class="text-3xl sm:text-4xl font-bold text-[#00d8ff] mb-6">🌐 Our Vision: A Secure Digital Pakistan</h2>
+        <p class="mb-4 text-lg sm:text-xl max-w-[90vw]">
+          Cybersecurity is no longer optional — it’s essential for every citizen, organization, and institution. Through this personal initiative, I aim to promote a culture of digital safety and cyber hygiene across Pakistan.
+        </p>
+        <p class="text-lg sm:text-xl max-w-[90vw]">
+          My mission is to simplify cybersecurity for everyday users — from students and teachers to small business owners and professionals — by delivering <strong>clear, actionable guidance</strong> that empowers people to protect themselves in the digital world.
+        </p>
+      </div>
+    </section>
+
+    <!-- Topics Section -->
+    <section id="topics" class="fade-in bg-[#1a1e25]/80 backdrop-blur-sm rounded-2xl p-8 sm:p-12 shadow-xl max-w-[100vw] mx-auto">
+      <div class="max-w-[90vw] mx-auto sm:max-w-7xl">
+        <h2 class="text-3xl sm:text-4xl font-bold text-[#00d8ff] mb-6">💡 What You’ll Learn in Our Sessions</h2>
+        <ul class="list-disc list-inside space-y-4 mb-6 text-lg sm:text-xl max-w-[90vw]">
+          <li class="hover:text-[#17f1a6] transition-colors">🔐 The danger of weak/reused passwords – and how to create strong, secure ones</li>
+          <li class="hover:text-[#17f1a6] transition-colors">🎣 How to spot phishing messages, fake websites, and social engineering scams</li>
+          <li class="hover:text-[#17f1a6] transition-colors">📡 Staying protected on public Wi-Fi networks (cafés, airports, schools)</li>
+          <li class="hover:text-[#17f1a6] transition-colors">🧼 Practical <strong>cyber hygiene</strong> tips: keeping devices updated, using 2FA, and more</li>
+        </ul>
+        <p class="text-lg sm:text-xl max-w-[90vw]">
+          These sessions are interactive and real-life based — designed to inform, not scare. You’ll leave with a stronger understanding of how to stay safe online, regardless of your technical background.
+        </p>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="fade-in bg-[#1a1e25]/80 backdrop-blur-sm rounded-2xl p-8 sm:p-12 shadow-xl max-w-[100vw] mx-auto">
+      <div class="max-w-[90vw] mx-auto sm:max-w-7xl">
+        <h2 class="text-3xl sm:text-4xl font-bold text-[#00d8ff] mb-6">👨‍💻 Who Is Behind This Initiative?</h2>
+        <p class="mb-6 text-lg sm:text-xl max-w-[90vw]">
+          I’m <strong>Muhammad Ehtisham</strong>, a final-year BS Cybersecurity student at Air University, and a freelance cybersecurity professional. I hold the globally recognized <strong>(ISC)<sup>2</sup> Certified in Cybersecurity (CC)</strong> credential.
+        </p>
+        <p class="mb-6 text-lg sm:text-xl max-w-[90vw]">
+          I believe every Pakistani deserves to understand how to protect themselves online. Whether it’s personal privacy, digital finance, or business data — I help people build a smarter, safer relationship with technology.
+        </p>
+        <p class="text-lg sm:text-xl max-w-[90vw]">
+          🔗 My Portfolio: <a href="https://www.ehtisham.space" target="_blank" class="text-[#17f1a6] hover:underline hover-effect">www.ehtisham.space</a><br />
+          🔗 LinkedIn: <a href="https://www.linkedin.com/in/ehtishamcyber/" target="_blank" class="text-[#17f1a6] hover:underline hover-effect">linkedin.com/in/ehtishamcyber</a><br />
+          🧪 Explore My Tool: <a href="https://shampass.netlify.app" target="_blank" class="text-[#17f1a6] hover:underline hover-effect">Password Strength Checker</a>
+        </p>
+      </div>
+    </section>
+
+    <!-- Speaking Engagement Section -->
+    <section id="invite" class="fade-in bg-[#1a1e25]/80 backdrop-blur-sm rounded-2xl p-8 sm:p-12 shadow-xl max-w-[100vw] mx-auto text-center">
+      <div class="max-w-[90vw] mx-auto sm:max-w-7xl">
+        <h2 class="text-3xl sm:text-4xl font-bold text-[#00d8ff] mb-8">📢 Invite Me to Speak at Your Institution or Organization</h2>
+        <p class="mb-8 text-lg sm:text-xl max-w-[90vw] mx-auto">
+          Cybersecurity awareness starts with conversation. I’m currently offering <strong>free educational sessions</strong> at schools, universities, and community centers across Pakistan — with the goal of building national digital resilience.
+        </p>
+        <p class="mb-8 text-lg sm:text-xl max-w-[90vw] mx-auto">
+          My talks are tailored to your audience — whether you’re a classroom of students, a team of employees, or an administrative leadership group.
+        </p>
+        <a href="mailto:connectsham95@gmail.com" class="inline-block bg-[#00d8ff] text-black font-semibold px-10 py-4 rounded-lg hover:bg-[#17f1a6] hover-effect transition">📧 Invite Me to Speak</a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="text-center text-gray-500 py-8 border-t border-gray-700 mt-12 max-w-[100vw]">
+    <p class="max-w-[90vw] mx-auto">
+      © 2025 Muhammad Ehtisham | SHAM Cybersecurity Initiative | 
+      <a href="https://www.ehtisham.space" target="_blank" class="text-[#00d8ff] hover:underline hover-effect">www.ehtisham.space</a> | Knowledge is the first line of defense.
+    </p>
+  </footer>
+
+  <script>
+    // Fade-in on scroll
+    const fadeElems = document.querySelectorAll('.fade-in');
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+          observer.unobserve(entry.target); // Animate once
+        }
+      });
+    }, { threshold: 0.2 });
+
+    fadeElems.forEach(el => observer.observe(el));
+
+    // Smooth scroll for navigation
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+          behavior: 'smooth'
+        });
+      });
+    });
+  </script>
+</body>
+</html>
